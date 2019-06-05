@@ -157,7 +157,7 @@ function keyUpHandler(e) {
     }
 }
 
-<<<<<<< HEAD
+
 function collisionDetection() {
     for(var c=0; c<brickColumnCount; c++) {
         for(var r=0; r<brickRowCount; r++) {
@@ -190,6 +190,4 @@ function drawLives() {
 }
 
 draw();
-=======
-var interval = setInterval(draw, 10);
->>>>>>> 5d6bc85e57ecdc127b4633a431b6389baaf22817
+
